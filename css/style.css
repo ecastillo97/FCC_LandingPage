@@ -70,6 +70,9 @@ section{
     height: 100vh;
     padding: 15vh 0px;
 }
+#services, #pricing{
+    background: rgba(183, 213, 212, 1);
+}
 form{
     display: flex;
     flex-direction: column;
