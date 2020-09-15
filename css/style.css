@@ -65,7 +65,7 @@ li{
     font-size: 1.25rem;
     list-style: none;
 }
-section{
+#services{
     text-align: center;
     height: 100vh;
     padding: 15vh 0px;
@@ -73,12 +73,52 @@ section{
 #services, #pricing{
     background: rgba(183, 213, 212, 1);
 }
+#service-list{
+    padding: 10vh 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#services h3 {
+    color: rgba(48, 82, 82, 1);
+    font-size: clamp(1.5rem, 4vw, 5rem);
+}
+.service-list-item{
+    margin: 2vh auto;
+    font-size: clamp(1.25rem, 2vw, 3rem);
+    color: rgba(72, 130, 134, 1);;
+}
+#software-icon, #graphic-icon{
+    font-size: clamp(1.5rem, 3.5vw, 4.5rem);
+    color: rgba(72, 130, 134, 1);;
+}
+#sample{
+    height: auto;
+    padding: 15vh 0px;
+    text-align: center;
+}
+.sample-image{
+    width: 80%;
+    height: 400px;
+    object-fit: cover;
+    margin: 3vh 0px;
+    border: 0.75vw solid rgba(72, 130, 134, 1);
+}
+#sample h3{
+    color: rgba(183, 213, 212, 1);
+    font-size: clamp(1.5rem, 4vw, 5rem);
+    margin-bottom: 5vh;
+}
+#sample h4{
+    margin: 2vh auto;
+    color: rgba(183, 213, 212, 1);
+    font-size: clamp(1.25rem, 2vw, 3rem);
+}
 form{
     display: flex;
     flex-direction: column;
 }
 @media (min-width: 321px){
     .nav-link:hover{
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
 }
