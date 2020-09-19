@@ -96,19 +96,14 @@ li{
     padding: 15vh 0px;
     text-align: center;
 }
-.sample-image, .graphic-image{
+.sample-image{
+    width: 100%;
     padding: 10px;
     object-fit: contain;
     background: rgba(72, 130, 134, 1);
     border-radius: 20px;
 }
-.sample-image{
-    max-width: 100%;
-}
-.graphic-image{
-    width: 100%;
-    height: 70vh;
-}
+
 .sample-grid{
     display: grid;
     grid-template-columns: repeat(2, minmax(300px, 1fr));
